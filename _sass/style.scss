@@ -86,9 +86,10 @@ h1, h2, h3, h4, h5,
 			color: $white;
 		}
 	}
-	
+
 	.navbar-nav {
 		> .nav-item {
+
 			> .nav-link {
 				font-size: 14px;
 				padding-top: .9rem;
@@ -98,6 +99,16 @@ h1, h2, h3, h4, h5,
 				color: rgba(255,255,255,.9);
 				font-weight: 400;
 				@include media-breakpoint-up(md){
+					&.lang {
+						// color: $white;
+						padding-left: 5px;
+						padding-right: 0px;
+						}
+					&.act {
+						color: $white;
+						// padding-left: 5px;
+						// padding-right: 0px;
+						}
 					padding-top: 1.5rem;
 					padding-bottom: 1.5rem;
 					padding-left: 20px;
