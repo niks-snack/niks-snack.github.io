@@ -1,9 +1,8 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-// $font-primary: 'Poppins',Arial, sans-serif;
+$font-primary: 'Poppins',Arial, sans-serif;
 $font-primary: 'Open Sans',Arial, sans-serif;
-// $font-secondary: 'Josefin Sans',Arial, sans-serif;
 $font-secondary: 'Montserrat',Arial, sans-serif;
 $font-tertiary: 'Philosopher', cursive;
 
@@ -1243,7 +1242,7 @@ textarea.form-control {
 	a {
 		color: rgba($white, .7);
 		&:hover {
-			color: $white;
+			color: $primary;
 		}
 	}
 	.ftco-heading-2 {
@@ -1299,7 +1298,8 @@ textarea.form-control {
 				transform: translate(-50%, -50%);
 			}
 			&:hover {
-				color: $white;
+				// color: $primary;
+				background-color: $primary;
 			}
 		}
 	}
@@ -1719,7 +1719,7 @@ textarea.form-control {
 				width: 40px;
 				font-size: 18px;
 				padding-top: 2px;
-				color: rgba($white, 1);
+				color: rgba($primary, 1) !important;
 			}
 			
 		}
