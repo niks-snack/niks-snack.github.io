@@ -635,6 +635,7 @@ h1, h2, h3, h4, h5,
 			}
 			.social-icon{
 				margin: 0;
+				margin-top: 2%;
 				padding: 0;
 				li{
 					list-style: none;
@@ -645,9 +646,12 @@ h1, h2, h3, h4, h5,
 						display: block;
 						margin: 0;
 						padding: 0;
-						span{
+						i {
 							color: $white;
-							font-size: 20px;
+							font-size: 36px;
+							&:hover {
+								color: $darken;
+							}
 						}
 					}
 				}
@@ -660,11 +664,11 @@ h1, h2, h3, h4, h5,
 		.text{
 			width: calc(100% - 40px);
 		}
-		.icon{
+		.icon {
 			width: 40px;
-			span{
+			i {
 				color: $primary;
-				font-size: 20px;
+				font-size: 18px;
 			}
 		}
 	}
@@ -1290,7 +1294,7 @@ textarea.form-control {
 			background: rgba($white, .05);
 			border-radius: 50%;
 			position: relative;
-			span {
+			i {
 				position: absolute;
 				font-size: 26px;
 				top: 50%;
@@ -1298,7 +1302,7 @@ textarea.form-control {
 				transform: translate(-50%, -50%);
 			}
 			&:hover {
-				// color: $primary;
+				color: $darken;
 				background-color: $primary;
 			}
 		}
@@ -1715,7 +1719,7 @@ textarea.form-control {
 				display: table-cell;
 				vertical-align: top;
 			}
-			.icon {
+			i {
 				width: 40px;
 				font-size: 18px;
 				padding-top: 2px;
