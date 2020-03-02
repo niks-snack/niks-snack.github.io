@@ -225,13 +225,13 @@ h1, h2, h3, h4, h5,
 					padding-right: 20px;
 					margin-top: 6px !important;
 					@include border-radius(30px);
-					span {
+					i {
 						display: inline-block;
 						color: $white !important;
 					}
 				}
 				&.cta-colored {
-					span {
+					i {
 						border-color: $primary;
 					}
 				}
