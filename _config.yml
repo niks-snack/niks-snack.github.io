@@ -23,7 +23,7 @@ menu_ru: [
   },
   {
     text: "О нас",
-    url: "about.html",
+    url: "about_ru.html",
   },
   {
     text: "Контакты",
