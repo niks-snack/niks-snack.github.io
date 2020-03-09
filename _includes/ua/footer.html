@@ -1,0 +1,48 @@
+<footer class="ftco-footer ftco-section img">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+        <div class="ftco-footer-widget mb-4 ml-md-4">
+          <h2 class="ftco-heading-2">Меню</h2>
+          <ul class="list-unstyled">
+            {% for mitm in site.menu_ua %}
+            <li><a href="{{ mitm.url }}" class="py-2 d-block">{{ mitm.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mr-auto">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Про нас</h2>
+          <p>{{ site.footer_about_ua }}</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+            <li class="ftco-animate"><a href="{{ site.twitter_url }}"><i class="fab fa-twitter"></i></a></li>
+            <li class="ftco-animate"><a href="{{ site.facebook_url }}"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="ftco-animate"><a href="{{ site.instagramm_url }}"><i class="fab fa-instagram"></i></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Контакти</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li><i class="fas fa-map-marker"></i>
+                <span class="text">{{ site.adress_ua }}</span></li>
+              <li><a href="#"><i class="fas fa-phone"></i><span class="text">{{ site.phone_one }}</span></a></li>
+              <li><a href="#"><i class="fab fa-viber"></i> <span class="text">{{ site.phone_viber }}</span></a></li>
+              <li><a href="#"><i class="far fa-envelope"></i><span class="text">{{ site.mail }}</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>ТМ Nik.S <span>ON</span> &copy;
+          <script>document.write(new Date().getFullYear());</script> Всі права захищені.</p>
+      </div>
+    </div>
+  </div>
+</footer>

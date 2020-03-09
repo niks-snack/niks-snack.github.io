@@ -1,3 +1,51 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "NikS ON" # the name of your site, e.g. ACME Corp.
+twitter_url: "https://twitter.com/yegorkowalew"
+facebook_url: "https://facebook.com/yegorkowalew"
+instagramm_url: "https://instagramm.com/yegorkowalew"
+adress_ru: "Производитель ФОП Николаенко С.Г.</br> ТМ Nik.S ON</br>Украина 39500</br>Полтавская обл. г. Карловка</br>ул. Полтавский шлях, 34."
+adress_ua: "Виробник ФОП Миколаєнко С.Г.</br> ТМ Nik.S ON</br>Україна 39500</br>Полтавська обл. г. Карлівка</br>ул. Полтавський шлях, 34."
+phone_one: "+38 050 57 85 888"
+phone_viber: "+38 067 19 11 933"
+mail: "niks.19061966@gmail.com"
+footer_about_ru: "Философия вкуса, любви к своему делу, философия жить вкусно! Звоните прямо сейчас или оставляйте заявку и мы свяжемся с Вами в кратчайшее время!"
+footer_about_ua: "Філософія смаку, любові до своєї справи, філософія жити смачно! Звоніть прямо зараз обо залишайте заявку і ми зв`яжемося з Вами в найкоротший час!"
+
+menu_ru: [
+  {
+    text: "Главная",
+    url: "/index_ru.html",
+  },
+  {
+    text: "Каталог",
+    url: "catalog.html",
+  },
+  {
+    text: "О нас",
+    url: "about.html",
+  },
+  {
+    text: "Контакты",
+    url: "contacts.html",
+  },
+]
+
+menu_ua: [
+  {
+    text: "Головна",
+    url: "/index.html",
+  },
+  {
+    text: "Каталог",
+    url: "catalog.html",
+  },
+  {
+    text: "Про нас",
+    url: "about.html",
+  },
+  {
+    text: "Контакти",
+    url: "contacts.html",
+  },
+]
