@@ -19,7 +19,7 @@ menu_ru: [
   },
   {
     text: "Каталог",
-    url: "catalog.html",
+    url: "products_ru.html",
   },
   {
     text: "О нас",
@@ -27,7 +27,7 @@ menu_ru: [
   },
   {
     text: "Контакты",
-    url: "contacts.html",
+    url: "contacts_ru.html",
   },
 ]
 
@@ -38,7 +38,7 @@ menu_ua: [
   },
   {
     text: "Каталог",
-    url: "catalog.html",
+    url: "products.html",
   },
   {
     text: "Про нас",
@@ -49,3 +49,6 @@ menu_ua: [
     url: "contacts.html",
   },
 ]
+
+collections:
+  - products
