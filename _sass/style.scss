@@ -1632,9 +1632,10 @@ textarea.form-control {
 			font-weight: 400;
 			position: relative;
 			display: inline-block;
-			bordeR: 1px solid $primary;
+			border: 1px solid $primary;
 			margin-left: 5px;
 			margin-right: 5px;
+			margin-bottom: 10px;
 			&.active, &:hover{
 				color: darken($primary, 70%);
 				@include transition(.3s);
