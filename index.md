@@ -3,10 +3,6 @@ layout: start_ua
 title: "Головна. Снеки в Україні"
 lang: "ua"
 
-slider_bottom_1: "Дома та в дорозі ВКЛючайся з нами!"
-slider_bottom_2: "ВКЛючай смак!"
-slider_bottom_3: "ВКЛючай емоції!"
-
 slider: [
     {
     img: "/assets/images/bg_31.jpg",

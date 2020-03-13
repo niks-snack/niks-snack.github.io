@@ -3,10 +3,6 @@ layout: start_ru
 title: "Главная. Снеки в Украине"
 lang: "ru"
 
-slider_bottom_1: "Дома и в дороге ВКЛючайся с нами!"
-slider_bottom_2: "ВКЛючай вкус!"
-slider_bottom_3: "ВКЛючай эмоции!"
-
 slider: [
     {
     img: "/assets/images/bg_31.jpg",

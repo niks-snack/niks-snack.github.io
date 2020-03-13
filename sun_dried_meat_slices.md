@@ -3,10 +3,6 @@ layout: products
 title: Продукція - М'ясні слайси в'ялені
 lang: "ua"
 
-slider_bottom_1: "Дома та в дорозі ВКЛючайся з нами!"
-slider_bottom_2: "ВКЛючай смак!"
-slider_bottom_3: "ВКЛючай емоції!"
-
 categorie: "dried_meat_slices"
 permalink: /products/dried_meat_slices/
 ---

@@ -91,3 +91,25 @@ products_categories: [
     url_ru: "/products_ru/dried_mushrooms/",
   },
 ]
+
+slider_bottom: [
+  {
+    head_ua: "З Nik.S <span>ON</span>",
+    head_ru: "С Nik.S <span>ON</span>",
+    text_ua: "Дома та в дорозі ВКЛючайся з нами!",
+    text_ru: "Дома и в дороге ВКЛючайся с нами!"
+  },
+  {
+    head_ua: "З Nik.S <span>ON</span>",
+    head_ru: "С Nik.S <span>ON</span>",
+    text_ua: "ВКЛючай смак!",
+    text_ru: "ВКЛючай вкус!"
+  },
+  {
+    head_ua: "З Nik.S <span>ON</span>",
+    head_ru: "С Nik.S <span>ON</span>",
+    text_ua: "ВКЛючай емоції!",
+    text_ru: "ВКЛючай эмоции!"
+  },
+]
+  

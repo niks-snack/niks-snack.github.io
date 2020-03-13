@@ -2,10 +2,6 @@
 layout: products
 lang: "ua"
 
-slider_bottom_1: "Дома та в дорозі ВКЛючайся з нами!"
-slider_bottom_2: "ВКЛючай смак!"
-slider_bottom_3: "ВКЛючай емоції!"
-
 categorie: "sun_dried_meat_slices"
 permalink: /products/sun_dried_meat_slices/
 ---
