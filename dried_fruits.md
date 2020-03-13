@@ -1,16 +1,16 @@
 ---
 layout: products
-title: Продукція
 lang: "ua"
 
 slider_bottom_1: "Дома та в дорозі ВКЛючайся з нами!"
 slider_bottom_2: "ВКЛючай смак!"
 slider_bottom_3: "ВКЛючай емоції!"
 
-categorie: "popular"
+categorie: "dried_fruits"
+permalink: /products/dried_fruits/
 ---
 
-{% assign sorted-posts = site.products | where: "popular", "yes" %}
+{% assign sorted-posts = site.products | where: "categorie", page.categorie %}
 {% for tov in sorted-posts %}
 <div class="col-md-4 text-center">
 <div class="menu-wrap">
