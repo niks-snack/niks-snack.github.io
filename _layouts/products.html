@@ -32,7 +32,7 @@
         <div class="row">
           <div class="col-md-12 nav-link-wrap mb-5">
             <div class="nav ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/products.html">Популярна продукція</a>
+              <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/products/">Популярна продукція</a>
               {% for categorie in site.products_categories %}
                 <a class="nav-link{% if categorie.categorie == page.categorie %} active{% endif %}" href="{{ categorie.url_ua }}">{{ categorie.categorie_ua }}</a>
               {% endfor %}

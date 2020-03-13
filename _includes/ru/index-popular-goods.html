@@ -9,14 +9,15 @@
   </div>
   <div class="container-wrap">
     <div class="row no-gutters d-flex">
-      {% for pop_itm in page.popular_catalog %}
+      {% assign sorted-posts = site.products | where: "popular","yes" %}
+      {% for pop_itm in sorted-posts limit: 3 %}
         <div class="col-lg-4 d-flex ftco-animate">
           <div class="services-wrap d-flex">
-            <a href="#" class="img" style="background-image: url({{ pop_itm.img }});"></a>
+            <a href="{{ pop_itm.url }}" class="img" style="background-image: url(/assets/images/products/{{ pop_itm.categorie }}/sm_{{ pop_itm.title }}.jpg);"></a>
             <div class="text p-4">
-              <h3>{{ pop_itm.header_text }}</h3>
-              <p>{{ pop_itm.body_text }}</p>
-              <a href="{{ pop_itm.button_url }}" class="ml-2 btn btn-white btn-outline-white">{{ pop_itm.button_text }}</a></p>
+              <h3>{{ pop_itm.title_ru }}</h3>
+              <p>{{ pop_itm.title_text_ru | truncate: 100 }}</p>
+              <a href="{{ pop_itm.url }}" class="ml-2 btn btn-white btn-outline-white">ПЕРЕЙТИ</a></p>
             </div>
           </div>
         </div>

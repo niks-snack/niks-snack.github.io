@@ -4,6 +4,7 @@ title: Продукція
 lang: "ua"
 
 categorie: "popular"
+permalink: "/products/"
 ---
 
 {% assign sorted-posts = site.products | where: "popular", "yes" %}

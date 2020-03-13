@@ -13,7 +13,7 @@
       {% for pop_itm in sorted-posts limit: 3 %}
         <div class="col-lg-4 d-flex ftco-animate">
           <div class="services-wrap d-flex">
-            <a href="{{ pop_itm.url }}" class="img" style="background-image: url(assets/images/products/{{ pop_itm.categorie }}/sm_{{ pop_itm.title }}.jpg);"></a>
+            <a href="{{ pop_itm.url }}" class="img" style="background-image: url(/assets/images/products/{{ pop_itm.categorie }}/sm_{{ pop_itm.title }}.jpg);"></a>
             <div class="text p-4">
               <h3>{{ pop_itm.title_ua }}</h3>
               <p>{{ pop_itm.title_text_ua | truncate: 100 }}</p>
