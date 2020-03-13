@@ -52,3 +52,31 @@ menu_ua: [
 
 collections:
   - products
+
+products_categories: [
+  {
+    categorie: "dried_meat_slices",
+    categorie_ru: "Мясные слайсы вяленые",
+    categorie_ua: "М'ясні слайси в'ялені",
+  },
+  {
+    categorie: "sun_dried_meat_slices",
+    categorie_ru: "Мясные слайсы сушеные",
+    categorie_ua: "М'ясні слайси сушені",
+  },
+  {
+    categorie: "dried_fruits",
+    categorie_ru: "Сушеные фрукты",
+    categorie_ua: "Сушені фрукти",
+  },
+  {
+    categorie: "dried_mushrooms",
+    categorie_ru: "Сушеные грибы",
+    categorie_ua: "Сушені гриби",
+  },
+  {
+    categorie: "dried_vegetables",
+    categorie_ru: "Сушеные овощи",
+    categorie_ua: "Сушені овочі",
+  },
+]

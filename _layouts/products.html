@@ -35,11 +35,9 @@
           <div class="col-md-12 nav-link-wrap mb-5">
             <div class="nav ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               <a class="nav-link active" href="#v-pills-1">Популярна продукція</a>
-              <a class="nav-link" href="#">М'ясні слайси в'ялені</a>
-              <a class="nav-link" href="#">М'ясні слайси сушені</a>
-              <a class="nav-link" href="#">сушені гриби</a>
-              <a class="nav-link" href="#">сушені овочі</a>
-              <a class="nav-link" href="#">Сушені фрукти</a>
+              {% for categorie in site.products_categories %}
+                <a class="nav-link" href="#">{{ categorie.categorie_ua }}</a>
+              {% endfor %}
             </div>
           </div>
           <div class="col-md-12 d-flex align-items-center">
@@ -57,7 +55,7 @@
                       <div class="text">
                         <h3><a href="{{ tov.url }}">{{ tov.title_ua }}</a></h3>
                         <p>{{ tov.title_text_ua | truncate: 100 }}</p>
-                        <p><a href="{{ tov.url }}" class="btn btn-white btn-outline-white">Відкрити</a></p>
+                        <p><a href="{{ tov.url }}" class="btn btn-white btn-outline-white">ПЕРЕЙТИ</a></p>
                       </div>
                     </div>
                   </div>
