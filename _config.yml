@@ -51,7 +51,8 @@ menu_ua: [
 ]
 
 collections:
-  - products
+  products:
+    output: true
 
 products_categories: [
   {
