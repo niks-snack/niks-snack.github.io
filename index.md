@@ -8,24 +8,24 @@ slider: [
     img: "/assets/images/bg_31.jpg",
     first_text: "включай смак з нами!",
     second_text: "Раді бачити Вас в нашому клубі любителей жити якісно та смачно!",
-    button_text: "ДИВИТИСЬ КАТАЛОГ",
-    button_url: "#"
+    button_text: "ДИВИТИСЬ ПРОДУКЦІЮ",
+    button_url: "/products/"
     },
     
     {
     img: "/assets/images/bg_32.jpg",
     first_text: "включай смак з нами!",
     second_text: "Раді бачити Вас в нашому клубі любителей жити якісно та смачно!",
-    button_text: "ДИВИТИСЬ КАТАЛОГ",
-    button_url: "#"
+    button_text: "ДИВИТИСЬ ПРОДУКЦІЮ",
+    button_url: "/products/"
     },
 
     {
     img: "/assets/images/bg_30.jpg",
     first_text: "включай смак з нами!",
     second_text: "Раді бачити Вас в нашому клубі любителей жити якісно та смачно!",
-    button_text: "ДИВИТИСЬ КАТАЛОГ",
-    button_url: "#"
+    button_text: "ДИВИТИСЬ ПРОДУКЦІЮ",
+    button_url: "/products/"
     },
 ]
 
