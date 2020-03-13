@@ -18,7 +18,7 @@ menu_ru: [
     url: "/index_ru.html",
   },
   {
-    text: "Каталог",
+    text: "Продукция",
     url: "products_ru.html",
   },
   {
@@ -37,7 +37,7 @@ menu_ua: [
     url: "/index.html",
   },
   {
-    text: "Каталог",
+    text: "Продукція",
     url: "products.html",
   },
   {
