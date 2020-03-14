@@ -1,7 +1,7 @@
 <!DOCTYPE html>{% assign cat = site.products | where: "categorie", page.categorie | first %}
 <html lang="{{ page.lang }}">
   <head>
-    <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярні товари{% else %}{{ cat.categorie_ua }}{% endif %} - {{ page.title_ua }}</title>
+    <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}{% endif %} - {{ page.title_ua }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ua/index-head.html %}	
@@ -48,14 +48,14 @@
                   {{ page.description_ua }}
                   {% if page.specifications_ua %}
                   <h3>Характеристики товару</h3>
-                    <table>
+                    <div class="container">
                       {% for sp in page.specifications_ua %}
-                      <tr>
-                        <td>{{ sp.head_text }}</td>
-                        <td>{{ sp.body_text }}</td>
-                      </tr>
+                      <div class="row">
+                        <div class="col-5 justify-content-left">{{ sp.head_text }}</div>
+                        <div class="col-7">{{ sp.body_text }}</div>
+                      </div>
                       {% endfor %}
-                    </table>
+                    </div>
                   {% endif %}
                 </div>
               </div>

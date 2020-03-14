@@ -1,7 +1,7 @@
 <!DOCTYPE html>{% assign cat = site.products | where: "categorie", page.categorie | first %}
 <html lang="{{ page.lang }}">
   <head>
-    <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярні товари{% else %}{{ cat.categorie_ua }}{% endif %}</title>
+    <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}{% endif %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ua/index-head.html %}	
@@ -15,7 +15,7 @@
       <div class="col-md-12">
         <div class="row slider-text justify-content-end align-items-center" data-scrollax-parent="true">
           <div class="col-md-12 col-sm-12 ftco-animate">
-            <h2 class="mb-4">Nik.S <span>ON</span> - {% if page.categorie == "popular" %} Популярні товари{% else %}{{ cat.categorie_ua }}{% endif %}</h2>
+            <h2 class="mb-4">Nik.S <span>ON</span> - {% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}{% endif %}</h2>
           </div>
         </div>
       </div>
