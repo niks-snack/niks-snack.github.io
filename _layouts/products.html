@@ -1,4 +1,4 @@
-<!DOCTYPE html>{% assign cat = site.products | where: "categorie", page.categorie | first %}
+<!DOCTYPE html>{% assign cat = site.products_categories | where: "categorie", page.categorie | first %}
 <html lang="{{ page.lang }}">
   <head>
     <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}{% endif %}</title>

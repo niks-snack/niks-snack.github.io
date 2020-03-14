@@ -13,8 +13,8 @@ permalink: /products/dried_mushrooms/
     <a href="{{ tov.url }}" class="menu-img
     img mb-4" style="background-image: url(/assets/images/products/{{ tov.categorie }}/sm_{{ tov.title }}.jpg);"></a>
     <div class="text">
-    <h3><a href="{{ tov.url }}">{{ tov.title_ua }}</a></h3>
-    <p>{{ tov.title_text_ua | truncate: 100 }}</p>
+    <h3><a href="{{ tov.url }}">{{ tov.title_small }}</a></h3>
+    <p>{{ tov.title_text | truncate: 100 }}</p>
     <p><a href="{{ tov.url }}" class="btn btn-white btn-outline-white">ПЕРЕЙТИ</a></p>
     </div>
 </div>
