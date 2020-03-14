@@ -38,7 +38,7 @@ body {
 	font-size: 20px;
 	line-height: 1.8;
 	font-weight: 300;
-	color: lighten($black,50%);
+	color: lighten($black,70%);
 	background: url(../images/bg_4.jpg) no-repeat fixed;
 	background-size: cover;
 	&.menu-show {
@@ -717,8 +717,8 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		right: 0;
 		content: '';
-		background: $primary;
-		opacity: 0;
+		background: $black;
+		opacity: 0.4;
 	}
 	.heading-section{
 		h2{

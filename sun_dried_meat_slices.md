@@ -1,13 +1,13 @@
 ---
 layout: products
-title: Продукція - М'ясні слайси в'ялені
 lang: "ua"
 
-categorie: "dried_meat_slices"
-permalink: /products/dried_meat_slices/
+categorie: "sun_dried_meat_slices"
+permalink: /products/sun_dried_meat_slices/
 ---
 
 {% assign sorted-posts = site.products | where: "categorie", page.categorie %}
+{% assign sorted-posts = sorted-posts | where: "lang", "ua" %}
 {% for tov in sorted-posts %}
 <div class="col-md-4 text-center">
 <div class="menu-wrap">

@@ -1,21 +1,58 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% assign cat = site.products_categories | where: "categorie", page.categorie | first %}
 <html lang="{{ page.lang }}">
   <head>
-    <title>{{ site.title }} - {{ page.title }}</title>
+    <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярная продукция{% else %}{{ cat.categorie_ru }}{% endif %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ru/index-head.html %}	
   </head>
   <body>
-
 {% include ru/index-nav.html %}
-<!-- {% include ru/index-slider.html %} -->
+<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(/assets/images/products/sun_dried_meat_slices.jpg); background-position: 50% -77.6875px;" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="row slider-text justify-content-end align-items-center" data-scrollax-parent="true">
+          <div class="col-md-12 col-sm-12 ftco-animate">
+            <h2 class="mb-4">Nik.S <span>ON</span> - {% if page.categorie == "popular" %} Популярная продукция{% else %}{{ cat.categorie_ru }}{% endif %}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% include ru/index-slider-bottom.html %}
-{% include ru/index-why.html %}
-<!-- {% include ru/index-about.html %} -->
-{% include ru/index-popular-goods.html %}
+<section class="ftco-menu">
+  <div class="container-fluid">
+    <div class="row d-md-flex">
+      <div class="col-lg-4 ftco-animate f-menu-img mb-5 p-md-5 fadeInUp ftco-animated">
+        <div class="col-md-12 nav-link-wrap mb-5">
+          <div class="nav ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/products/">Популярная продукция</a>
+            {% for categorie in site.products_categories %}
+              <a class="nav-link{% if categorie.categorie == page.categorie %} active{% endif %}" href="{{ categorie.url_ru }}">{{ categorie.categorie_ru }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 ftco-animate p-md-5 fadeInUp ftco-animated">
+        <div class="row">
+          <div class="col-md-12 d-flex align-items-center">
+            <div class="tab-content ftco-animate fadeInUp ftco-animated" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                <div class="row">
+                  {{ content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% include ru/footer.html %}
 {% include inscripts.html %}
-
   </body>
 </html>

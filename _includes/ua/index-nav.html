@@ -12,14 +12,14 @@
           {% for mitm in site.menu_ru %}
             <li class="nav-item"><a href="{{ mitm.url }}" class="nav-link">{{ mitm.text }}</a></li>
           {% endfor %}
-            <li class="nav-item"><a href="/index_ru.html" class="nav-link lang act">RU</a></li>
+            <li class="nav-item"><a href="/ru" class="nav-link lang act">RU</a></li>
             <li class="nav-item lang"><a href="/" class="nav-link lang">UA</a></li>
         {% endif %}
         {% if page.lang == "ua" %}
           {% for mitm in site.menu_ua %}
             <li class="nav-item"><a href="{{ mitm.url }}" class="nav-link">{{ mitm.text }}</a></li>
           {% endfor %}
-            <li class="nav-item"><a href="/index_ru.html" class="nav-link lang">RU</a></li>
+            <li class="nav-item"><a href="/ru" class="nav-link lang">RU</a></li>
             <li class="nav-item lang"><a href="/" class="nav-link lang act">UA</a></li>
         {% endif %}
       </ul>

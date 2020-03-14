@@ -7,6 +7,7 @@ permalink: /products/dried_mushrooms/
 ---
 
 {% assign sorted-posts = site.products | where: "categorie", page.categorie %}
+{% assign sorted-posts = sorted-posts | where: "lang", "ua" %}
 {% for tov in sorted-posts %}
 <div class="col-md-4 text-center">
 <div class="menu-wrap">

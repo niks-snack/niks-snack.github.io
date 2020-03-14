@@ -1,15 +1,13 @@
 ---
-layout: products
-title: Продукція
-lang: "ua"
+layout: products_ru
+lang: "ru"
 
-categorie: "popular"
-permalink: "/products/"
+categorie: "sun_dried_meat_slices"
+permalink: "/ru/products/sun_dried_meat_slices"
 ---
 
-
-{% assign sorted-posts = site.products | where: "popular", "yes" %}
-{% assign sorted-posts = sorted-posts | where: "lang", "ua" %}
+{% assign sorted-posts = site.products | where: "categorie", page.categorie %}
+{% assign sorted-posts = sorted-posts | where: "lang", "ru" %}
 {% for tov in sorted-posts %}
 <div class="col-md-4 text-center">
 <div class="menu-wrap">

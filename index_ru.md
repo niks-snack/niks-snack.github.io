@@ -9,7 +9,7 @@ slider: [
     first_text: "включай вкус с нами!",
     second_text: "Рады видеть Вас в нашем клубе любителей жить качественно и вкусно!",
     button_text: "СМОТРЕТЬ КАТАЛОГ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
     
     {
@@ -17,7 +17,7 @@ slider: [
     first_text: "включай вкус с нами!",
     second_text: "Рады видеть Вас в нашем клубе любителей жить качественно и вкусно!",
     button_text: "СМОТРЕТЬ КАТАЛОГ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
 
     {
@@ -25,7 +25,7 @@ slider: [
     first_text: "включай вкус с нами!",
     second_text: "Рады видеть Вас в нашем клубе любителей жить качественно и вкусно!",
     button_text: "СМОТРЕТЬ КАТАЛОГ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
 ]
 
@@ -50,7 +50,7 @@ popular_catalog: [
     header_text: "Мясные слайсы куриные сыровяленые «Паприка»",
     body_text: "Используется как самостоятельная закуска, а также к пиву и крепким спиртным напиткам.",
     button_text: "ПЕРЕЙТИ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
     
     {
@@ -58,7 +58,7 @@ popular_catalog: [
     header_text: "Мясные слайсы куриные сушеные «Карри»",
     body_text: "Изготавливается из свежих куриных грудок путем сырого высушивания на специальном сертифицированном оборудовании.",
     button_text: "ПЕРЕЙТИ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
 
     {
@@ -66,9 +66,10 @@ popular_catalog: [
     header_text: "Яблочные чипсы",
     body_text: "Вкусный и полезный низкокаллорийный продукт, который подходит и взрослым и детям.",
     button_text: "ПЕРЕЙТИ",
-    button_url: "#"
+    button_url: "/ru/products/"
     },
 ]
+permalink: "/ru"
 ---
 
 ## You're ready to go!

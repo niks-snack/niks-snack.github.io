@@ -15,19 +15,19 @@ footer_about_ua: "Філософія смаку, любові до своєї с
 menu_ru: [
   {
     text: "Главная",
-    url: "/index_ru.html",
+    url: "/ru",
   },
   {
     text: "Продукция",
-    url: "/products_ru.html",
+    url: "/ru/products",
   },
   {
     text: "О нас",
-    url: "/about_ru.html",
+    url: "/ru/about",
   },
   {
     text: "Контакты",
-    url: "/contacts_ru.html",
+    url: "/ru/contacts",
   },
 ]
 
@@ -60,35 +60,35 @@ products_categories: [
     categorie_ru: "Мясные слайсы вяленые",
     categorie_ua: "М'ясні слайси в'ялені",
     url_ua: "/products/dried_meat_slices/",
-    url_ru: "/products_ru/dried_meat_slices/",
+    url_ru: "/ru/products/dried_meat_slices/",
   },
   {
     categorie: "sun_dried_meat_slices",
     categorie_ru: "Мясные слайсы сушеные",
     categorie_ua: "М'ясні слайси сушені",
     url_ua: "/products/sun_dried_meat_slices/",
-    url_ru: "/products_ru/sun_dried_meat_slices/",
+    url_ru: "/ru/products/sun_dried_meat_slices/",
   },
   {
     categorie: "dried_fruits",
     categorie_ru: "Сушеные фрукты",
     categorie_ua: "Сушені фрукти",
     url_ua: "/products/dried_fruits/",
-    url_ru: "/products_ru/dried_fruits/",
+    url_ru: "/ru/products/dried_fruits/",
   },
   {
     categorie: "dried_vegetables",
     categorie_ru: "Сушеные овощи",
     categorie_ua: "Сушені овочі",
     url_ua: "/products/dried_vegetables/",
-    url_ru: "/products_ru/dried_vegetables/",
+    url_ru: "/ru/products/dried_vegetables/",
   },
   {
     categorie: "dried_mushrooms",
     categorie_ru: "Сушеные грибы",
     categorie_ua: "Сушені гриби",
     url_ua: "/products/dried_mushrooms/",
-    url_ru: "/products_ru/dried_mushrooms/",
+    url_ru: "/ru/products/dried_mushrooms/",
   },
 ]
 
