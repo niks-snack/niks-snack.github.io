@@ -8,7 +8,7 @@
   </head>
   <body>
 {% include ua/index-nav.html %}
-<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(/assets/images/products/sun_dried_meat_slices.jpg); background-position: 50% -77.6875px;" data-stellar-background-ratio="0.5">
+<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url({% if cat.categorie == page.categorie %}/assets/images/products/{{page.categorie}}.jpg{% else %}/assets/images/products/popular.jpg{% endif %}); background-position: 50% -77.6875px;" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row justify-content-center">
