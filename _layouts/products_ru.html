@@ -29,7 +29,7 @@
       <div class="col-lg-4 ftco-animate f-menu-img mb-5 p-md-5 fadeInUp ftco-animated">
         <div class="col-md-12 nav-link-wrap mb-5">
           <div class="nav ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/products/">Популярная продукция</a>
+            <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/ru/products/">Популярная продукция</a>
             {% for categorie in site.products_categories %}
               <a class="nav-link{% if categorie.categorie == page.categorie %} active{% endif %}" href="{{ categorie.url_ru }}">{{ categorie.categorie_ru }}</a>
             {% endfor %}
