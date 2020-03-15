@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% include ua/index-head.html %}	
+  </head>
+  <body>
+{% include ua/index-nav.html %}
+{% include ua/index-slider-bottom.html %}
+<section class="contact-section">
+  <div class="container mt-5">
+    <div class="row block-9">
+      <div class="col-md-6 contact-info ftco-animate">
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <h2 class="h4">Контактна інформація</h2>
+          </div>
+          <div class="col-md-12 mb-3">
+            <p><span>Адреса:</span> {{ site.adress_ua }}</p>
+          </div>
+          <div class="col-md-12 mb-3">
+            <p><span>Телефон:</span> <a href="tel://{{ site.phone_one }}">{{ site.phone_one }}</a></p>
+          </div>
+          <div class="col-md-12 mb-3">
+            <p><span>Вайбер:</span> <a href="tel://{{ site.phone_viber }}">{{ site.phone_viber }}</a></p>
+          </div>
+          <div class="col-md-12 mb-3">
+            <p><span>Email:</span> <a href="mailto:{{ site.mail }}">{{ site.mail }}</a></p>
+          </div>
+          <div class="col-md-12 mb-3">
+            <p><span>Сайт:</span> <a href="http://nikson.org.ua">nikson.org.ua</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-4 ftco-animate">
+        &nbsp;	
+      </div>
+    </div>
+  </div>
+</section>
+{% include ua/index-popular-goods.html %}
+{% include ua/footer.html %}
+{% include inscripts.html %}
+  </body>
+</html>
