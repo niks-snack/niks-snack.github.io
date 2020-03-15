@@ -2211,3 +2211,24 @@ textarea.form-control {
 		padding-bottom: 20px;
 	}
 }
+
+.spec {
+	.row {
+		border-bottom: 1px dashed darken($primary,30%);
+		padding-top: 10px;
+		padding-bottom: 0px;
+
+	}
+	.itm:hover {
+		background: rgba(0,0,0,.2);
+	}
+	.frst {
+		font-size: 18px;
+		color: $primary;
+		padding-left: 0px;
+		font-style: italic;
+	}
+	.scnd {
+		font-size: 18px;
+	}
+}
