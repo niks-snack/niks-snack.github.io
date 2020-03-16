@@ -2,7 +2,7 @@
 layout: contacts_ua
 title: "Контакти"
 lang: "ua"
-permalink: "/contacts"
+permalink: "/contacts/"
 ---
 
 ## You're ready to go!

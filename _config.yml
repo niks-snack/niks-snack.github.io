@@ -38,15 +38,15 @@ menu_ua: [
   },
   {
     text: "Продукція",
-    url: "/products/",
+    url: "/products",
   },
   {
     text: "Про нас",
-    url: "/about/",
+    url: "/about",
   },
   {
     text: "Контакти",
-    url: "/contacts/",
+    url: "/contacts",
   },
 ]
 
