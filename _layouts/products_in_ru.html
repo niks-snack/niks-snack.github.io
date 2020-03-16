@@ -27,9 +27,9 @@
 <section class="ftco-menu">
   <div class="container-fluid">
     <div class="row d-md-flex">
-      <div class="col-lg-4 ftco-animate f-menu-img mb-5 p-md-5 fadeInUp ftco-animated">
+      <div class="col-lg-4 ftco-animate f-menu-img mb-5 mt-5 fadeInUp ftco-animated">
         <div class="col-md-12 nav-link-wrap mb-5">
-          <div class="nav pt-sm-5 ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <div class="nav ftco-animate nav-pills fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <a class="nav-link{% if page.categorie == "popular" %} active{% endif %}" href="/ru/products/">Популярная продукция</a>
             {% for categorie in site.products_categories %}
               <a class="nav-link{% if categorie.categorie == page.categorie %} active{% endif %}" href="{{ categorie.url_ru }}">{{ categorie.categorie_ru }}</a>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-8 p-sm-5 ftco-animate p-md-5 fadeInUp ftco-animated">
+      <div class="col-lg-8 p-sm-5 ftco-animate p-md-5 p-4 fadeInUp ftco-animated">
         <div class="row">
           <div class="col-md-12 d-flex align-items-center">
             <div class="row">
