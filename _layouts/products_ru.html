@@ -3,6 +3,7 @@
   <head>
     <title>{{ site.title }} - Продукция - {% if page.categorie == "popular" %} Популярная продукция{% else %}{{ cat.categorie_ru }}{% endif %}</title>
     <meta charset="utf-8">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_ru }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ru/index-head.html %}	
   </head>
