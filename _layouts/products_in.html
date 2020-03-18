@@ -54,7 +54,6 @@
             <div class="row">
               <h3 style="padding-bottom: 20px;">{{ page.title_small }}</h3>
               <div class="text-justify">{{ page.description }}</div>
-              
             </div>
           </div>
         </div>
@@ -71,6 +70,18 @@
           </div>
         </div>
         {% endif %}
+        <div class="row">
+          <h3 style="padding-bottom: 20px; padding-top: 30px;">Фото товару</h3>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-3 ftco-animate fadeInUp ftco-animated">
+            <a href="/assets/images/products/{{page.categorie}}/sm_{{page.title}}.jpg" class="image-popup gallery img d-flex align-items-center" style="background-image: url(/assets/images/products/{{page.categorie}}/sm_{{page.title}}.jpg);">
+              <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
