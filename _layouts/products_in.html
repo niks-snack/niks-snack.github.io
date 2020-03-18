@@ -3,6 +3,7 @@
   <head>
     <title>{{ site.title }} - Продукція - {% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}{% endif %} - {{ page.title_small }}</title>
     <meta charset="utf-8">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_ua }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ua/index-head.html %}	
   </head>
