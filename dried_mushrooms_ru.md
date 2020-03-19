@@ -1,7 +1,7 @@
 ---
 layout: products_ru
 lang: "ru"
-
+meta_description: "Купить в Украине Сушеные гриби"
 categorie: "dried_mushrooms"
 permalink: "/ru/products/dried_mushrooms"
 ---

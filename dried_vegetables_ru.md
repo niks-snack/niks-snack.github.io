@@ -1,7 +1,7 @@
 ---
 layout: products_ru
 lang: "ru"
-
+meta_description: "Купить в Украине Сушеные овощи"
 categorie: "dried_vegetables"
 permalink: "/ru/products/dried_vegetables"
 ---

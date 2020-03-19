@@ -1,7 +1,7 @@
 ---
 layout: products
 lang: "ua"
-
+meta_description: "Купити в Україні М'ясні Слайси (Снеки) Сушені"
 categorie: "sun_dried_meat_slices"
 permalink: /products/sun_dried_meat_slices/
 ---

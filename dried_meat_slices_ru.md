@@ -1,7 +1,7 @@
 ---
 layout: products_ru
 lang: "ru"
-
+meta_description: "Купить в Украине Мясные Слайсы Вяленые"
 categorie: "dried_meat_slices"
 permalink: "/ru/products/dried_meat_slices"
 ---

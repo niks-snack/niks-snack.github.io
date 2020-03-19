@@ -2,7 +2,7 @@
 title: dried_chicken_meat_slices_curry
 title_small: Мясные слайсы куриные сушеные «Карри»
 lang: "ru"
-
+meta_description: "Мясные слайсы куриные сушеные — качественный натуральный продукт из мяса курицы."
 categorie: sun_dried_meat_slices
 
 title_text: "Мясные слайсы куриные сушеные — качественный натуральный продукт из мяса курицы."

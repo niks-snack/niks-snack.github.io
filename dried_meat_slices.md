@@ -1,7 +1,7 @@
 ---
 layout: products
 lang: "ua"
-
+meta_description: "Купити в Україні М'ясні слайси в'ялені"
 categorie: "dried_meat_slices"
 permalink: /products/dried_meat_slices/
 ---

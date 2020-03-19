@@ -2,7 +2,7 @@
 title: dried_veal_meat_slices_paprika
 title_small: М'ясні слайси з телятини сушені «Паприка»
 lang: "ua"
-
+meta_description: "М'ясні слайси з телятини сушені є готовою до вживання поживною м’ясною стравою."
 categorie: sun_dried_meat_slices
 
 title_text: "М'ясні слайси з телятини сушені є готовою до вживання поживною м’ясною стравою."

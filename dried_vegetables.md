@@ -1,7 +1,7 @@
 ---
 layout: products
 lang: "ua"
-
+meta_description: "Купити в Україні Сушені овочі"
 categorie: "dried_vegetables"
 permalink: /products/dried_vegetables/
 ---

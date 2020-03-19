@@ -1,7 +1,7 @@
 ---
 layout: products
 lang: "ua"
-
+meta_description: "Купити в Україні Сушені гриби"
 categorie: "dried_mushrooms"
 permalink: /products/dried_mushrooms/
 ---

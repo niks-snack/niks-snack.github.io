@@ -1,7 +1,7 @@
 ---
 layout: products
 lang: "ua"
-
+meta_description: "Купити в Україні Сушені фрукти"
 categorie: "dried_fruits"
 permalink: /products/dried_fruits/
 ---

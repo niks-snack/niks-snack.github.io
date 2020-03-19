@@ -2,7 +2,7 @@
 title: home_made_jerky_chicken_meat_slices
 title_small: М'ясні слайси курячі сиров'ялені «Домашні»
 lang: "ua"
-
+meta_description: "М'ясні слайси курячі сиров'ялені-якісний натуральний продукт з м'яса курки."
 categorie: dried_meat_slices
 
 title_text: "М'ясні слайси курячі сиров'ялені-якісний натуральний продукт з м'яса курки."

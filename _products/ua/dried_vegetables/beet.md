@@ -2,7 +2,7 @@
 title: beet
 title_small: Буряк сушений
 lang: "ua"
-
+meta_description: ""
 categorie: dried_vegetables
 
 title_text: "Продукт нашого виробництва не тільки дуже корисний, але і практичний продукт харчування."

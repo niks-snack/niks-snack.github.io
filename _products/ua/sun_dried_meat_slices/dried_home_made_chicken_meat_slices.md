@@ -2,7 +2,7 @@
 title: dried_home_made_chicken_meat_slices
 title_small: М'ясні слайси курячі сушені «Домашні»
 lang: "ua"
-
+meta_description: "М'ясні слайси курячі сушені — якісний натуральний продукт з м'яса курки."
 categorie: sun_dried_meat_slices
 
 title_text: "М'ясні слайси курячі сушені — якісний натуральний продукт з м'яса курки."
