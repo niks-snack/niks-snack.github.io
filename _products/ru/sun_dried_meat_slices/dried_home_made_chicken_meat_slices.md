@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_home_made_chicken_meat_slices
 title_small: Мясные слайсы куриные сушеные «Домашние»
 lang: "ru"

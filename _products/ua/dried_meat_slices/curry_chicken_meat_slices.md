@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: curry_chicken_meat_slices
 title_small: М'ясні слайси курячі сиров'ялені «Каррі»
 lang: "ua"

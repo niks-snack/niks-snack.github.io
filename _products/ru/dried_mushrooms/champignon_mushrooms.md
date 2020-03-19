@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: champignon_mushrooms
 title_small: Грибы шампиньоны сушеные
 lang: "ru"

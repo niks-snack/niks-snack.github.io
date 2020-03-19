@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_home_made_chicken_meat_slices
 title_small: М'ясні слайси курячі сушені «Домашні»
 lang: "ua"

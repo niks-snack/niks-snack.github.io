@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: start_ua
 title: "М'ясні та Курячі Снеки (Слайси) Купити в Україні"
 lang: "ua"

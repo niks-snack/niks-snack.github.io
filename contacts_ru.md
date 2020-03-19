@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: contacts_ru
 title: "Контакты"
 lang: "ru"

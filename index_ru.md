@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: start_ru
 title: "Мясные и Куриные Снеки (Слайсы) Купить в Украине"
 lang: "ru"

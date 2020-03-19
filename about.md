@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: in_pages_ua
 title: "Про нас. Снеки в Україні"
 lang: "ua"

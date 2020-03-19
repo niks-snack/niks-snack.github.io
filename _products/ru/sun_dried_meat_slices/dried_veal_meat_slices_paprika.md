@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_veal_meat_slices_paprika
 title_small: Мясные слайсы с телятины сушеные «Паприка»
 lang: "ru"

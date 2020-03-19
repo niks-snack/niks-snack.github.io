@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: curry_chicken_meat_slices
 title_small: Мясные слайсы куриные сыровяленые «Карри»
 lang: "ru"

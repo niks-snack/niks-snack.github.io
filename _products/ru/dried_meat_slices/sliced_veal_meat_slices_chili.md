@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: sliced_veal_meat_slices_chili
 title_small: Мясные слайсы с телятины сыровяленые «Чили»
 lang: "ru"

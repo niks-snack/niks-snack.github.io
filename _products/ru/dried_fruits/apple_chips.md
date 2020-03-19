@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: apple_chips
 title_small: Яблочные чипсы
 lang: "ru"

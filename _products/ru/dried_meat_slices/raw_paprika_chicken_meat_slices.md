@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: raw_paprika_chicken_meat_slices
 title_small: Мясные слайсы куриные сыровяленые «Паприка»
 lang: "ru"

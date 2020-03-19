@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: carrot
 title_small: Морква сушена
 lang: "ua"

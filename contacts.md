@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: contacts_ua
 title: "Контакти"
 lang: "ua"

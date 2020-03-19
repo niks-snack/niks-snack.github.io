@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: home_made_dried_veal_meat_slices
 title_small: Мясные слайсы с телятины сыровяленые «Домашние»
 lang: "ru"

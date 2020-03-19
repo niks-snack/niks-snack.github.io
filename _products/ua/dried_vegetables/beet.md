@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: beet
 title_small: Буряк сушений
 lang: "ua"

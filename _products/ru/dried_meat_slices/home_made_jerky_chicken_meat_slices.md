@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: home_made_jerky_chicken_meat_slices
 title_small: Мясные слайсы куриные сыровяленые «Домашние»
 lang: "ru"

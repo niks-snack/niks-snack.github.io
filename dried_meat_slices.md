@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: products
 lang: "ua"
 meta_description: "Купити в Україні М'ясні слайси в'ялені"

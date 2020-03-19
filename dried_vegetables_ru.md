@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: products_ru
 lang: "ru"
 meta_description: "Купить в Украине Сушеные овощи"

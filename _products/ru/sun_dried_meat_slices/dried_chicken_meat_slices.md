@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_chicken_meat_slices
 title_small: Мясные слайсы куриные сушеные «Чили»
 lang: "ru"

@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_chicken_meat_slices_curry
 title_small: Мясные слайсы куриные сушеные «Карри»
 lang: "ru"

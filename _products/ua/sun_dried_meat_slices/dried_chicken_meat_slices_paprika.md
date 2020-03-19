@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: dried_chicken_meat_slices_paprika
 title_small: М'ясні слайси курячі сушені «Паприка»
 lang: "ua"

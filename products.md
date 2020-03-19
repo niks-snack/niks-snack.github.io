@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 layout: products
 title: Продукція
 lang: "ua"

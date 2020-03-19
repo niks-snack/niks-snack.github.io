@@ -1,4 +1,5 @@
 ---
+pub: "yes"
 title: champignon_mushrooms
 title_small: Гриби печериці сушені
 lang: "ua"
