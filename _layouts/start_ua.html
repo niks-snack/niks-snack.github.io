@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
+    {% include analytics-google.html %}
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta charset="utf-8">
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.meta_description_ua }}{% endif %}">
