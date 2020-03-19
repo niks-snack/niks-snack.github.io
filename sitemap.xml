@@ -8,7 +8,7 @@ search: exclude
     {% assign sorted-posts = site.pages | where: "pub", "yes" %}
     {% for page in sorted-posts %}
     <url>
-        <loc>{{page.url}}</loc>
+        <loc>{{site.url}}{{page.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -17,7 +17,7 @@ search: exclude
     {% assign sorted-products = site.products | where: "pub", "yes" %}
     {% for page in sorted-products %}
     <url>
-        <loc>{{page.url}}</loc>
+        <loc>{{site.url}}{{page.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
