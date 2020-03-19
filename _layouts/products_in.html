@@ -1,7 +1,7 @@
 <!DOCTYPE html>{% assign cat = site.products_categories | where: "categorie", page.categorie | first %}
 <html lang="{{ page.lang }}">
   <head>
-    <title>{% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }} Купити в Україні{% endif %} | {{ site.title }}</title>
+    <title>{{ page.title_small }}, купити в Україні | {{ site.title }}</title>
     <meta charset="utf-8">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description_ua }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
