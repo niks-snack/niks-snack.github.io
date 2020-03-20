@@ -50,7 +50,7 @@ specifications: [
     },
     {
         head_text: "Термін зберігання:",
-        body_text: "24 місяця",
+        body_text: "24 місяці",
     },
     {
         head_text: "Умови зберігання:",
