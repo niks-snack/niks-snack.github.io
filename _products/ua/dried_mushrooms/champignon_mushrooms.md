@@ -29,7 +29,7 @@ specifications: [
     },
     {
         head_text: "Вид:",
-        body_text: "Слайсы ",
+        body_text: "Слайси",
     },
     {
         head_text: "Вага:",
