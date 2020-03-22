@@ -4,6 +4,8 @@
     {% include analytics-google.html %}
     <title>{{ page.title_small }}, купити в Україні | {{ site.title }}</title>
     <meta charset="utf-8">
+    <link rel="alternate" hreflang="ru" href="{{site.url}}{{ cat.url_ru }}/{{ page.title }}">
+    <link rel="alternate" hreflang="x-default" href="{{site.url}}{{ cat.url_ru }}/{{ page.title }}">
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.meta_description_ua }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ua/index-head.html %}	

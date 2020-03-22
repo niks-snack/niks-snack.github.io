@@ -4,6 +4,8 @@
     {% include analytics-google.html %}
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta charset="utf-8">
+    <link rel="alternate" hreflang="ru" href="{{site.url}}/ru{{ page.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{site.url}}/ru{{ page.url }}">
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.meta_description_ua }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ru/index-head.html %}	

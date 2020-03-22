@@ -4,6 +4,8 @@
     {% include analytics-google.html %}
     <title>{% if page.categorie == "popular" %} Популярна продукція{% else %}{{ cat.categorie_ua }}, купити в Україні{% endif %} | {{ site.title }}</title>
     <meta charset="utf-8">
+    <link rel="alternate" hreflang="ru" href="{{site.url}}{% if page.categorie == "popular" %}/ru/products{% else %}{{ cat.url_ru }}{% endif %}">
+    <link rel="alternate" hreflang="x-default" href="{{site.url}}{% if page.categorie == "popular" %}/ru/products{% else %}{{ cat.url_ru }}{% endif %}">
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.meta_description_ua }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% include ua/index-head.html %}	
