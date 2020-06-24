@@ -63,6 +63,20 @@
           </div>
         </div>
         {% endif %}
+        {% if page.price %}
+        <div class="row">
+          <h3 style="padding-bottom: 20px; padding-top: 30px;">Цена</h3>
+          <div class="col-md-12 spec">
+            {% for sp in page.price %}
+            <div class="row itm">
+              <div class="col-md-5 frst align-top">{{ sp.head_text }}</div>
+              <div class="col-md-3 scnd align-top">{{ sp.weight_data }}{{ sp.weight_text }}</div>
+              <div class="col-md-3 scnd align-top">{{ sp.price_data }}{{ sp.price_text }}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
         <div class="row">
           <h3 style="padding-bottom: 20px; padding-top: 30px;">Фото товара</h3>
         </div>

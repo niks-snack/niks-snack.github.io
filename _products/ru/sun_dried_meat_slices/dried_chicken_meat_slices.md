@@ -60,9 +60,36 @@ specifications: [
         head_text: "Нормативная документация:",
         body_text: "ТУ У 10.1-2427610970-002:2019",
     },
+]
+
+price: [
     {
-        head_text: "Цена:",
-        body_text: "Цена договорная",
+        head_text: "Упаковка крафт:",
+        weight_data: "25",
+        weight_text: "гр.",
+        price_data: "20",
+        price_text: "грв.",
+    },
+    {
+        head_text: "Упаковка крафт:",
+        weight_data: "50",
+        weight_text: "гр.",
+        price_data: "36",
+        price_text: "грв.",
+    },
+    {
+        head_text: "Упаковка п/п:",
+        weight_data: "500",
+        weight_text: "гр.",
+        price_data: "255",
+        price_text: "грв.",
+    },
+    {
+        head_text: "Опт:",
+        weight_data: "10",
+        weight_text: "кг.",
+        price_data: "470",
+        price_text: "грв.",
     },
 ]
 ---
