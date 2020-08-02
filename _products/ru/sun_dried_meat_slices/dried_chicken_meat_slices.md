@@ -62,7 +62,5 @@ specifications: [
     },
 ]
 
-price: [
 
-]
 ---
