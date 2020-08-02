@@ -64,4 +64,5 @@ specifications: [
     },
 ]
 
+price: false
 ---
