@@ -66,34 +66,5 @@ specifications: [
     },
 ]
 
-price: [
-    {
-        head_text: "Упаковка крафт:",
-        weight_data: "25",
-        weight_text: "гр.",
-        price_data: "20",
-        price_text: "грн.",
-    },
-    {
-        head_text: "Упаковка крафт:",
-        weight_data: "50",
-        weight_text: "гр.",
-        price_data: "36",
-        price_text: "грн.",
-    },
-    {
-        head_text: "Упаковка п/п:",
-        weight_data: "500",
-        weight_text: "гр.",
-        price_data: "255",
-        price_text: "грн.",
-    },
-    {
-        head_text: "Опт:",
-        weight_data: "10",
-        weight_text: "кг.",
-        price_data: "470",
-        price_text: "грн.",
-    },
-]
+price: false
 ---
